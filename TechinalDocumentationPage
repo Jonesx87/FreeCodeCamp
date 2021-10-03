@@ -1,0 +1,247 @@
+<html>
+  <head>
+    <title>Techinal Documentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Scheherazade+New&display=swap" rel="stylesheet">
+  </head>
+  
+  
+<main id="main-doc">
+  <nav id="navbar">
+    <div class="divider"></div>
+    <header>Main Header</header>
+    <ul>
+      <li><a class="nav-link" href="#first_section">First Section</a></li>
+       <li><a class="nav-link" href="#second_section">Second Section</a></li>
+       <li><a class="nav-link" href="#third_section">Third Section</a></li>
+       <li><a class="nav-link" href="#fourth_section">Fourth Section</a></li>
+       <li><a class="nav-link" href="#fifth_section">Fifth Section</a></li>
+    </ul>
+  </nav>
+  
+  <div class="content">
+    <section id="first_section" class="main-section">
+      <header>first Section</header>
+      <p>
+        <code>var x = 76 - y</code></br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus, elit tempor gravida suscipit, enim sapien ultrices ante, porttitor convallis purus nisi in turpis. Sed ac arcu felis. Nullam vitae ipsum et ipsum euismod semper. Donec orci odio, tincidunt at pellentesque id, semper at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at hendrerit purus, at lobortis tellus. Sed tincidunt est nisl, sit amet euismod nisi luctus efficitur. Ut eu justo sed risus volutpat condimentum non et elit. Cras rhoncus facilisis dui id gravida. Etiam in laoreet ante. Praesent molestie diam id eros varius bibendum. Donec enim orci, commodo et lacinia rutrum, fermentum eget tellus. Nullam faucibus eros at nunc sagittis, non sollicitudin elit luctus.
+    </br>
+Donec lobortis augue eu ante bibendum posuere non sit amet est. Aenean rhoncus sed sem vel pellentesque. Phasellus eget varius eros. Aliquam eu augue justo. Quisque a diam ac orci pharetra vehicula ut ac elit. Nunc fringilla justo eget dictum pretium. Nulla lobortis, mi quis interdum pulvinar, massa elit vulputate dolor, sit amet posuere lectus massa eu lacus. Ut euismod est luctus tortor consectetur aliquam. Donec metus justo, congue nec ultrices nec, gravida sit amet mi. Nulla ut nisi dui. Phasellus ultrices consequat mauris nec eleifend.
+  </br>
+Proin sit amet felis turpis. Nullam maximus justo ac viverra tristique. Nam porta accumsan lectus, vel sollicitudin lacus commodo vitae. In fermentum suscipit sapien sit amet ullamcorper. Maecenas porttitor porttitor lectus id semper. Nunc sodales ultricies mattis. Aliquam accumsan faucibus congue. Cras eu mauris lacus. Suspendisse a dui metus. Vivamus sodales ante eu lobortis dignissim.
+</br>
+Cras ut sodales urna, eu aliquam dolor. Donec felis turpis, mollis mollis fringilla non, maximus sed dolor. Pellentesque laoreet magna a nisi convallis, in condimentum purus fringilla. Donec dolor ligula, fringilla nec facilisis non, viverra sed nunc. Nullam eu purus non velit pretium lobortis eget ut sapien. In at pellentesque tellus. In tincidunt interdum leo at molestie. Nam faucibus leo et congue eleifend. Sed pulvinar elementum faucibus. Aliquam ut ante vel mauris semper luctus in nec odio. Quisque ornare, mauris et mattis fringilla, risus dui aliquet ipsum, in tempor nisi enim id tortor. Sed sapien enim, vulputate eget lorem vitae, sodales facilisis dolor. Nulla faucibus eleifend hendrerit. Suspendisse potenti. Pellentesque sollicitudin ex a ex pulvinar porttitor.
+      </p>
+      
+      <ul>
+        <li>List A</li>
+        <li>List B</li>
+        <li>List C</li>
+        <li>List D</li>
+        <li>List E</li> 
+      </ul>
+
+<p>
+  <code>var lineID = index;
+  var self = $(this);
+    setTimeout(function () {
+      $.each(self, function(index, chunk){
+          setTimeout(function () {
+            $('#'+lineID).append("<span>"+chunk+"</span>");
+            $('body, html').scrollTop($(document).height());
+          }, index*5);
+      });</code>
+</p>
+<ol>
+  <li>First List</li>
+  <li>Second List</li>                     
+  <li>Third List</li>
+  <li>Fourth List</li>
+  <li>Fifth List</li>
+</ol>
+    </section>
+
+ <section id="second_section" class="main-section">
+      <header>second Section</header>
+      <p>
+        <code>var x = 76 - y</code></br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus, elit tempor gravida suscipit, enim sapien ultrices ante, porttitor convallis purus nisi in turpis. Sed ac arcu felis. Nullam vitae ipsum et ipsum euismod semper. Donec orci odio, tincidunt at pellentesque id, semper at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at hendrerit purus, at lobortis tellus. Sed tincidunt est nisl, sit amet euismod nisi luctus efficitur. Ut eu justo sed risus volutpat condimentum non et elit. Cras rhoncus facilisis dui id gravida. Etiam in laoreet ante. Praesent molestie diam id eros varius bibendum. Donec enim orci, commodo et lacinia rutrum, fermentum eget tellus. Nullam faucibus eros at nunc sagittis, non sollicitudin elit luctus.
+    </br>
+Donec lobortis augue eu ante bibendum posuere non sit amet est. Aenean rhoncus sed sem vel pellentesque. Phasellus eget varius eros. Aliquam eu augue justo. Quisque a diam ac orci pharetra vehicula ut ac elit. Nunc fringilla justo eget dictum pretium. Nulla lobortis, mi quis interdum pulvinar, massa elit vulputate dolor, sit amet posuere lectus massa eu lacus. Ut euismod est luctus tortor consectetur aliquam. Donec metus justo, congue nec ultrices nec, gravida sit amet mi. Nulla ut nisi dui. Phasellus ultrices consequat mauris nec eleifend.
+  </br>
+Proin sit amet felis turpis. Nullam maximus justo ac viverra tristique. Nam porta accumsan lectus, vel sollicitudin lacus commodo vitae. In fermentum suscipit sapien sit amet ullamcorper. Maecenas porttitor porttitor lectus id semper. Nunc sodales ultricies mattis. Aliquam accumsan faucibus congue. Cras eu mauris lacus. Suspendisse a dui metus. Vivamus sodales ante eu lobortis dignissim.
+</br>
+Cras ut sodales urna, eu aliquam dolor. Donec felis turpis, mollis mollis fringilla non, maximus sed dolor. Pellentesque laoreet magna a nisi convallis, in condimentum purus fringilla. Donec dolor ligula, fringilla nec facilisis non, viverra sed nunc. Nullam eu purus non velit pretium lobortis eget ut sapien. In at pellentesque tellus. In tincidunt interdum leo at molestie. Nam faucibus leo et congue eleifend. Sed pulvinar elementum faucibus. Aliquam ut ante vel mauris semper luctus in nec odio. Quisque ornare, mauris et mattis fringilla, risus dui aliquet ipsum, in tempor nisi enim id tortor. Sed sapien enim, vulputate eget lorem vitae, sodales facilisis dolor. Nulla faucibus eleifend hendrerit. Suspendisse potenti. Pellentesque sollicitudin ex a ex pulvinar porttitor.
+      </p>
+      
+      <ul>
+        <li>List A</li>
+        <li>List B</li>
+        <li>List C</li>
+        <li>List D</li>
+        <li>List E</li> 
+      </ul>
+
+<p>
+  <code>var lineID = index;
+  var self = $(this);
+    setTimeout(function () {
+      $.each(self, function(index, chunk){
+          setTimeout(function () {
+            $('#'+lineID).append("<span>"+chunk+"</span>");
+            $('body, html').scrollTop($(document).height());
+          }, index*5);
+      });</code>
+</p>
+<ol>
+  <li>First List</li>
+  <li>Second List</li>                     
+  <li>Third List</li>
+  <li>Fourth List</li>
+  <li>Fifth List</li>
+</ol>
+    </section>
+  </div>
+  
+   <section id="third_section" class="main-section">
+      <header>third Section</header>
+      <p>
+        <code>var x = 76 - y</code></br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus, elit tempor gravida suscipit, enim sapien ultrices ante, porttitor convallis purus nisi in turpis. Sed ac arcu felis. Nullam vitae ipsum et ipsum euismod semper. Donec orci odio, tincidunt at pellentesque id, semper at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at hendrerit purus, at lobortis tellus. Sed tincidunt est nisl, sit amet euismod nisi luctus efficitur. Ut eu justo sed risus volutpat condimentum non et elit. Cras rhoncus facilisis dui id gravida. Etiam in laoreet ante. Praesent molestie diam id eros varius bibendum. Donec enim orci, commodo et lacinia rutrum, fermentum eget tellus. Nullam faucibus eros at nunc sagittis, non sollicitudin elit luctus.
+    </br>
+Donec lobortis augue eu ante bibendum posuere non sit amet est. Aenean rhoncus sed sem vel pellentesque. Phasellus eget varius eros. Aliquam eu augue justo. Quisque a diam ac orci pharetra vehicula ut ac elit. Nunc fringilla justo eget dictum pretium. Nulla lobortis, mi quis interdum pulvinar, massa elit vulputate dolor, sit amet posuere lectus massa eu lacus. Ut euismod est luctus tortor consectetur aliquam. Donec metus justo, congue nec ultrices nec, gravida sit amet mi. Nulla ut nisi dui. Phasellus ultrices consequat mauris nec eleifend.
+  </br>
+Proin sit amet felis turpis. Nullam maximus justo ac viverra tristique. Nam porta accumsan lectus, vel sollicitudin lacus commodo vitae. In fermentum suscipit sapien sit amet ullamcorper. Maecenas porttitor porttitor lectus id semper. Nunc sodales ultricies mattis. Aliquam accumsan faucibus congue. Cras eu mauris lacus. Suspendisse a dui metus. Vivamus sodales ante eu lobortis dignissim.
+</br>
+Cras ut sodales urna, eu aliquam dolor. Donec felis turpis, mollis mollis fringilla non, maximus sed dolor. Pellentesque laoreet magna a nisi convallis, in condimentum purus fringilla. Donec dolor ligula, fringilla nec facilisis non, viverra sed nunc. Nullam eu purus non velit pretium lobortis eget ut sapien. In at pellentesque tellus. In tincidunt interdum leo at molestie. Nam faucibus leo et congue eleifend. Sed pulvinar elementum faucibus. Aliquam ut ante vel mauris semper luctus in nec odio. Quisque ornare, mauris et mattis fringilla, risus dui aliquet ipsum, in tempor nisi enim id tortor. Sed sapien enim, vulputate eget lorem vitae, sodales facilisis dolor. Nulla faucibus eleifend hendrerit. Suspendisse potenti. Pellentesque sollicitudin ex a ex pulvinar porttitor.
+      </p>
+      
+      <ul>
+        <li>List A</li>
+        <li>List B</li>
+        <li>List C</li>
+        <li>List D</li>
+        <li>List E</li> 
+      </ul>
+
+<p>
+  <code>var lineID = index;
+  var self = $(this);
+    setTimeout(function () {
+      $.each(self, function(index, chunk){
+          setTimeout(function () {
+            $('#'+lineID).append("<span>"+chunk+"</span>");
+            $('body, html').scrollTop($(document).height());
+          }, index*5);
+      });</code>
+</p>
+<ol>
+  <li>First List</li>
+  <li>Second List</li>                     
+  <li>Third List</li>
+  <li>Fourth List</li>
+  <li>Fifth List</li>
+</ol>
+    </section>
+  
+ 
+ <section id="fourth_section" class="main-section">
+      <header>fourth Section</header>
+      <p>
+        <code>var x = 76 - y</code></br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus, elit tempor gravida suscipit, enim sapien ultrices ante, porttitor convallis purus nisi in turpis. Sed ac arcu felis. Nullam vitae ipsum et ipsum euismod semper. Donec orci odio, tincidunt at pellentesque id, semper at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at hendrerit purus, at lobortis tellus. Sed tincidunt est nisl, sit amet euismod nisi luctus efficitur. Ut eu justo sed risus volutpat condimentum non et elit. Cras rhoncus facilisis dui id gravida. Etiam in laoreet ante. Praesent molestie diam id eros varius bibendum. Donec enim orci, commodo et lacinia rutrum, fermentum eget tellus. Nullam faucibus eros at nunc sagittis, non sollicitudin elit luctus.
+    </br>
+Donec lobortis augue eu ante bibendum posuere non sit amet est. Aenean rhoncus sed sem vel pellentesque. Phasellus eget varius eros. Aliquam eu augue justo. Quisque a diam ac orci pharetra vehicula ut ac elit. Nunc fringilla justo eget dictum pretium. Nulla lobortis, mi quis interdum pulvinar, massa elit vulputate dolor, sit amet posuere lectus massa eu lacus. Ut euismod est luctus tortor consectetur aliquam. Donec metus justo, congue nec ultrices nec, gravida sit amet mi. Nulla ut nisi dui. Phasellus ultrices consequat mauris nec eleifend.
+  </br>
+Proin sit amet felis turpis. Nullam maximus justo ac viverra tristique. Nam porta accumsan lectus, vel sollicitudin lacus commodo vitae. In fermentum suscipit sapien sit amet ullamcorper. Maecenas porttitor porttitor lectus id semper. Nunc sodales ultricies mattis. Aliquam accumsan faucibus congue. Cras eu mauris lacus. Suspendisse a dui metus. Vivamus sodales ante eu lobortis dignissim.
+</br>
+Cras ut sodales urna, eu aliquam dolor. Donec felis turpis, mollis mollis fringilla non, maximus sed dolor. Pellentesque laoreet magna a nisi convallis, in condimentum purus fringilla. Donec dolor ligula, fringilla nec facilisis non, viverra sed nunc. Nullam eu purus non velit pretium lobortis eget ut sapien. In at pellentesque tellus. In tincidunt interdum leo at molestie. Nam faucibus leo et congue eleifend. Sed pulvinar elementum faucibus. Aliquam ut ante vel mauris semper luctus in nec odio. Quisque ornare, mauris et mattis fringilla, risus dui aliquet ipsum, in tempor nisi enim id tortor. Sed sapien enim, vulputate eget lorem vitae, sodales facilisis dolor. Nulla faucibus eleifend hendrerit. Suspendisse potenti. Pellentesque sollicitudin ex a ex pulvinar porttitor.
+      </p>
+      
+      <ul>
+        <li>List A</li>
+        <li>List B</li>
+        <li>List C</li>
+        <li>List D</li>
+        <li>List E</li> 
+      </ul>
+
+<p>
+  <code>var lineID = index;
+  var self = $(this);
+    setTimeout(function () {
+      $.each(self, function(index, chunk){
+          setTimeout(function () {
+            $('#'+lineID).append("<span>"+chunk+"</span>");
+            $('body, html').scrollTop($(document).height());
+          }, index*5);
+      });</code>
+</p>
+<ol>
+  <li>First List</li>
+  <li>Second List</li>                     
+  <li>Third List</li>
+  <li>Fourth List</li>
+  <li>Fifth List</li>
+</ol>
+    </section>
+
+
+ <section id="fifth_section" class="main-section">
+      <header>fifth Section</header>
+      <p>
+        <code>var x = 76 - y</code></br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus, elit tempor gravida suscipit, enim sapien ultrices ante, porttitor convallis purus nisi in turpis. Sed ac arcu felis. Nullam vitae ipsum et ipsum euismod semper. Donec orci odio, tincidunt at pellentesque id, semper at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at hendrerit purus, at lobortis tellus. Sed tincidunt est nisl, sit amet euismod nisi luctus efficitur. Ut eu justo sed risus volutpat condimentum non et elit. Cras rhoncus facilisis dui id gravida. Etiam in laoreet ante. Praesent molestie diam id eros varius bibendum. Donec enim orci, commodo et lacinia rutrum, fermentum eget tellus. Nullam faucibus eros at nunc sagittis, non sollicitudin elit luctus.
+    </br>
+Donec lobortis augue eu ante bibendum posuere non sit amet est. Aenean rhoncus sed sem vel pellentesque. Phasellus eget varius eros. Aliquam eu augue justo. Quisque a diam ac orci pharetra vehicula ut ac elit. Nunc fringilla justo eget dictum pretium. Nulla lobortis, mi quis interdum pulvinar, massa elit vulputate dolor, sit amet posuere lectus massa eu lacus. Ut euismod est luctus tortor consectetur aliquam. Donec metus justo, congue nec ultrices nec, gravida sit amet mi. Nulla ut nisi dui. Phasellus ultrices consequat mauris nec eleifend.
+  </br>
+Proin sit amet felis turpis. Nullam maximus justo ac viverra tristique. Nam porta accumsan lectus, vel sollicitudin lacus commodo vitae. In fermentum suscipit sapien sit amet ullamcorper. Maecenas porttitor porttitor lectus id semper. Nunc sodales ultricies mattis. Aliquam accumsan faucibus congue. Cras eu mauris lacus. Suspendisse a dui metus. Vivamus sodales ante eu lobortis dignissim.
+</br>
+Cras ut sodales urna, eu aliquam dolor. Donec felis turpis, mollis mollis fringilla non, maximus sed dolor. Pellentesque laoreet magna a nisi convallis, in condimentum purus fringilla. Donec dolor ligula, fringilla nec facilisis non, viverra sed nunc. Nullam eu purus non velit pretium lobortis eget ut sapien. In at pellentesque tellus. In tincidunt interdum leo at molestie. Nam faucibus leo et congue eleifend. Sed pulvinar elementum faucibus. Aliquam ut ante vel mauris semper luctus in nec odio. Quisque ornare, mauris et mattis fringilla, risus dui aliquet ipsum, in tempor nisi enim id tortor. Sed sapien enim, vulputate eget lorem vitae, sodales facilisis dolor. Nulla faucibus eleifend hendrerit. Suspendisse potenti. Pellentesque sollicitudin ex a ex pulvinar porttitor.
+      </p>
+      
+      <ul>
+        <li>List A</li>
+        <li>List B</li>
+        <li>List C</li>
+        <li>List D</li>
+        <li>List E</li> 
+      </ul>
+
+<p>
+  <code>var lineID = index;
+  var self = $(this);
+    setTimeout(function () {
+      $.each(self, function(index, chunk){
+          setTimeout(function () {
+            $('#'+lineID).append("<span>"+chunk+"</span>");
+            $('body, html').scrollTop($(document).height());
+          }, index*5);
+      });</code>
+</p>
+<ol>
+  <li>First List</li>
+  <li>Second List</li>                     
+  <li>Third List</li>
+  <li>Fourth List</li>
+  <li>Fifth List</li>
+</ol>
+    </section>
+</main>
+
+
+</html>
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
